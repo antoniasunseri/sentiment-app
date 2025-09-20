@@ -1,7 +1,7 @@
 # Makefile for Dockerized Streamlit App
 
 # Define variables for the image name and tag
-IMAGE_NAME := streamlit-interactive-plot-app
+IMAGE_NAME := sentiment-app
 
 build:
 	@echo "Building Docker image: $(IMAGE_NAME)"
