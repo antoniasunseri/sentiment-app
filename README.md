@@ -10,6 +10,11 @@ Go to command prompt, Win +R
 - Clone the repositorary
   - git clone https://github.com/antoniasunseri/sentiment-app.git
   - cd sentiment-app
+  - docker build -t sentiment app .
+    - Command will build Docker container image
+  - docker run -p 8501:8501 sentiment-app
+    - Command to map container's port to a port on your local machine
+  - Click on http://localhost:8501 to access streamlit app 
 
 - Build the Docker image: \
 Using Makefile to build image
